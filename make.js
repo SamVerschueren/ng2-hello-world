@@ -5,12 +5,12 @@ const Builder = require('systemjs-builder');
 const SYSTEM_BUILDER_CONFIG = {
 	defaultJSExtensions: true,
 	packageConfigPaths: [
-		path.join(__dirname, 'node_modules/*/package.json'),
-		path.join(__dirname, 'node_modules/@angular/*/package.json')
+		path.join(__dirname, 'node_modules', '*', 'package.json'),
+		path.join(__dirname, 'node_modules', '@angular', '*', 'package.json')
 	],
 	paths: {
-		'app/*': `dist/*`,
-		'*': 'node_modules/*'
+		[path.join('app', '*')]: path.join('dist', '*'),
+		'*': path.join('node_modules', '*')
 	},
 	packages: {
 		'@angular/common': {
