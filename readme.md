@@ -1,5 +1,8 @@
 # ng2-hello-world
 
+[![Build Status: Linux](https://travis-ci.org/SamVerschueren/ng2-hello-world.svg?branch=master)](https://travis-ci.org/SamVerschueren/ng2-hello-world) [![Build status: Windows](https://ci.appveyor.com/api/projects/status/1650vc9543ev1ltf?svg=true)](https://ci.appveyor.com/project/SamVerschueren/ng2-hello-world)
+
+
 > Angular2 Hello World starter application
 
 
